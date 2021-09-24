@@ -20,4 +20,4 @@ mkdir /var/jenkins_home
 
 sudo docker container run --name jenkins-server --detach --restart unless-stopped --network jenkins-net --hostname jenkins --publish 8080:8080 --volume jenkins-data:/var/jenkins_home jenkins/jenkins:lts
 
-http://172.105.156.21:8080/
+
