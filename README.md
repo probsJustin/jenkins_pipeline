@@ -2,6 +2,8 @@
 
 
 ## About: 
+Multi purepose pipeline for doing github linked builds with multiple users 
+
 ## Rules: 
 - Application must be self contained (meaning it needs to be containerized and can only store files locally to that container) 
 - Application can not leave any dirt behind on the system (meaning please remove your container images in the clean up of your jenkins pipeline) 
