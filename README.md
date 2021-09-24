@@ -1,4 +1,10 @@
-# jenkins_pipeline
+# Multi-user Jenkins Pipeline: 
+
+
+## About: 
+## Rules: 
+- Application must be self contained (meaning it needs to be containerized and can only store files locally to that container) 
+- Application can not leave any dirt behind on the system (meaning please remove your container images in the clean up of your jenkins pipeline) 
 
 
 https://digitalavenue.dev/Run-Jenkins-On-Docker-Compose/
