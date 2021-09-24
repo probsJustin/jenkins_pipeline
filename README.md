@@ -1,4 +1,4 @@
-# Multi-user Jenkins Pipeline: 
+# Multi-User Jenkins Pipeline: 
 
 
 ## About: 
