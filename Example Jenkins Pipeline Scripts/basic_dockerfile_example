@@ -1,5 +1,8 @@
 node {
 	/* this example is from: https://tutorials.releaseworksacademy.com/learn/building-your-first-docker-image-with-jenkins-2-guide-for-developers */
+	
+	/* this would be under the assumption that your docker file is getintodevops/hellonode */
+	
     def app
 
     stage('Clone repository') {
