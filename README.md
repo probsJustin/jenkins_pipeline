@@ -1,6 +1,6 @@
 # Multi-User Jenkins Pipeline: 
 ## Current Build Status: 
-[![Build Status](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/badge/icon)](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/)
+[![Build Status](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/badge/icon?style=plastic)](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/)
 
 ## About: 
 Multi purepose pipeline for doing github linked builds with multiple users 
