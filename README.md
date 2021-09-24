@@ -1,5 +1,6 @@
 # Multi-User Jenkins Pipeline: 
-
+## Current Build Status: 
+[![Build Status](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/badge/icon)](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/)
 
 ## About: 
 ## Rules: 
@@ -9,6 +10,9 @@
 ## How to: 
 How to set up your own build/deployment with github:
 https://medium.com/@koen.vantomme/how-to-integrate-your-github-repository-to-your-jenkins-project-802168ad1777
+
+How to get your own build status in your readme: 
+https://www.vegait.rs/media-center/blog/how-to-display-jenkins-build-status-badge-on-github
 
 https://digitalavenue.dev/Run-Jenkins-On-Docker-Compose/
 
