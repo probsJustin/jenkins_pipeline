@@ -16,7 +16,6 @@ How to get your own build status in your readme:
 https://www.vegait.rs/media-center/blog/how-to-display-jenkins-build-status-badge-on-github
 
 ## Notes for setting up persisted jekins pipeline
->>>>>>> 15685f0f10aec2ab6e11ef2e5484a58ab85ec0f4
 https://digitalavenue.dev/Run-Jenkins-On-Docker-Compose/
 
 mkdir /var/jenkins_home 
