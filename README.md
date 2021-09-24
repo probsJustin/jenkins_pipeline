@@ -18,12 +18,12 @@ https://www.vegait.rs/media-center/blog/how-to-display-jenkins-build-status-badg
 ## Notes for setting up persisted jekins pipeline
 https://digitalavenue.dev/Run-Jenkins-On-Docker-Compose/
 
+for starting it first:  
 mkdir /var/jenkins_home 
 
 sudo docker container run --name jenkins-server --detach --restart unless-stopped --network jenkins-net --hostname jenkins --publish 8080:8080 --volume jenkins-data:/var/jenkins_home jenkins/jenkins:lts
 
-
-
+for restarting it: 
 sudo docker container run --detach --restart unless-stopped --network jenkins-net --hostname jenkins --publish 8080:8080 --volume jenkins-data:/var/jenkins_home jenkins/jenkins:lts
 
 
