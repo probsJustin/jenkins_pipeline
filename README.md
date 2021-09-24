@@ -1,5 +1,6 @@
 # Multi-User Jenkins Pipeline: 
 ## Current Build Status: 
+(if this shows anything except 'passing' that means its probably down or broken) 
 [![Build Status](http://172.105.156.21:8080/buildStatus/icon?job=jenkins_pipeline_test_build)](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/)
 ## About: 
 Multi purepose pipeline for doing github linked builds with multiple users 
@@ -27,7 +28,3 @@ for restarting it:
 sudo docker container run --detach --restart unless-stopped --network jenkins-net --hostname jenkins --publish 8080:8080 --volume jenkins-data:/var/jenkins_home jenkins/jenkins:lts
 
 
-Running from: /usr/share/jenkins/jenkins.war
-webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
-Exception in thread "main" java.lang.reflect.InvocationTargetException
-        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
