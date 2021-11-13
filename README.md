@@ -1,7 +1,7 @@
 # Multi-User Jenkins Pipeline: 
 ## Current Build Status: 
 (if this shows anything except 'passing' that means its probably down or broken) 
-
+!!! I think we are going to move this to a kubernetes instance soon: https://devopscube.com/setup-jenkins-on-kubernetes-cluster/
 [![Build Status](http://172.105.156.21:8080/buildStatus/icon?job=jenkins_pipeline_test_build)](http://172.105.156.21:8080/job/jenkins_pipeline_test_build/)
 ## About: 
 Multi purepose pipeline for doing github linked builds with multiple users 

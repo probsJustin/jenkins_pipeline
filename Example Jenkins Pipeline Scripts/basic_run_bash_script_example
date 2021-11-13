@@ -1,0 +1,19 @@
+pipeline {
+  agent {
+    node {
+      label 'jenkins-slave-python2.7'
+    }
+  }
+  stages {
+    stage('Take the grafana backup') {
+      steps {
+        sh './backup_grafana.sh'
+      }
+    }
+    stage('Push to the grafana-backup submodule repository') {
+      steps {
+        sh './gitPush.sh'
+      }
+    }
+  }
+}
